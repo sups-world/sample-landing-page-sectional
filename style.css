@@ -119,16 +119,30 @@ html,body{
     width:100%;
     height: 50%;
     background-color: green;
+    background-image: url('https://images.unsplash.com/photo-1590590470233-195e7fec2965?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: bottom;
 }
 
 #rtopleft{
     background-color: orange;
     width: 55%;
-    height:100%
+    height:100%;
+
+    /* background image */
+    background-image: url('https://images.unsplash.com/photo-1621484488308-3fc11031f2b6?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 #rtopright{
     width:45%;
     height: 100%;
     background-color: aqua;
+    background-image: url('https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: right;
+    
 }
