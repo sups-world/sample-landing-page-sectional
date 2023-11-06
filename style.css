@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Montaga', serif;;
 }
 
 html,body{
@@ -12,7 +15,6 @@ html,body{
 #main{
     width: 100%;
     height: 100%;
-    background-color: red;
 
     display: flex;
 }
@@ -21,6 +23,17 @@ html,body{
     width: 40%;
     height: 100%;
     background-color: white;
+}
+
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+#lnavr{
+    
 }
 #right{
     width: 60%;
